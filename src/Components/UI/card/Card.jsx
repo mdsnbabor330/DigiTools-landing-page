@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import { toast } from "react-toastify";
 
-const Card = ({ product }) => {
+const Card = ({ product, cartCard, setCartCard }) => {
   const [isBuyNow, setIsBuyNow] = useState(false);
 
   const handelBuyNow = () => {
     toast.success(`${product.name} added to cart`);
     setIsBuyNow(true);
+    setCartCard([...cartCard, product]);
   };
 
   return (
@@ -61,9 +62,8 @@ const Card = ({ product }) => {
           <div className="mt-6">
             <button
               onClick={handelBuyNow}
-              disabled={isBuyNow}
               className={`btn ${
-                isBuyNow
+                isBuyNow == true
                   ? "btn-disabled opacity-50 bg-linear-to-r from-[#4F39F6] to-[#9514FA]"
                   : "opacity-100 bg-linear-to-r from-[#4F39F6] to-[#9514FA]"
               } rounded-full border-0 text-white btn-block`}

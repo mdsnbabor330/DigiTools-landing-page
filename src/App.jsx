@@ -1,4 +1,4 @@
-import { Suspense } from 'react';
+import { Suspense, useState } from 'react';
 import './App.css'
 import Banner from './Components/banner/Banner';
 import Navbar from './Components/navbar/Navbar';
@@ -16,12 +16,15 @@ function App() {
   const productPromise =fetchProductData();
   console.log(productPromise);
 
+  const [cartCard,setCartCard]=useState([]);
+
   return (
     <>
-      <Navbar></Navbar>
+      <Navbar cartCard={cartCard}></Navbar>
       <Banner></Banner>
       <Suspense fallback={"loading.."}>
-        <ProductSection productPromise={productPromise}></ProductSection>
+        <ProductSection productPromise={productPromise}
+        cartCard={cartCard} setCartCard={setCartCard}></ProductSection>
       </Suspense>
     </>
   )
