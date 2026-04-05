@@ -1,18 +1,17 @@
-import React, { useState } from "react";
+import React from "react";
 import { toast } from "react-toastify";
 
 const Card = ({ product, cartCard, setCartCard }) => {
-  const [isBuyNow, setIsBuyNow] = useState(false);
+  const isBuyNow = cartCard.some((item) => item.id === product.id);
 
   const handelBuyNow = () => {
     toast.success(`${product.name} added to cart`);
-    setIsBuyNow(true);
     setCartCard([...cartCard, product]);
   };
 
   return (
     <>
-      <div className="card w-full h-full bg-base-100 shadow-sm hover:scale-105 hover:shadow-xl transition-all decoration-1">
+      <div className="card w-full h-full bg-base-100 shadow-sm border border-base-300 hover:scale-105 hover:shadow-xl transition-all decoration-1">
         <div className="card-body">
           <div className="flex justify-between">
             <div></div>

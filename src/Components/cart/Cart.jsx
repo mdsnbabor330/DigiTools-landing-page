@@ -1,7 +1,19 @@
 import React from "react";
 import CartCard from "../UI/card/CartCard";
+import { toast } from "react-toastify";
 
 const Cart = ({ cartCard, setCartCard }) => {
+    const handleDeleteCart =(cart)=>{
+        const filteredCart = cartCard.filter((Cart)=> Cart.id!== cart.id);
+
+        setCartCard(filteredCart);
+        toast.warning(`${cart.name} removed from cart!`);
+    }
+    const totalPrice= cartCard.reduce((sum,cart)=> sum+cart.price,0)
+    const handleCheckout=()=>{
+        setCartCard([]);
+    }
+
   return (
     <div className="max-mA shadow-xs border border-base-300 rounded-2xl p-5">
       <h3 className="text-[24px] font-bold">Your Cart</h3>
@@ -22,6 +34,7 @@ const Cart = ({ cartCard, setCartCard }) => {
                 cart={cart}
                 key={cart.id}
                 setCartCard={setCartCard}
+                handleDeleteCart={handleDeleteCart}
               ></CartCard>
             );
           })
@@ -30,9 +43,9 @@ const Cart = ({ cartCard, setCartCard }) => {
       <div className="space-y-6">
         <div className="flex justify-between items-center">
           <p className="font-semibold text-gray-600">Total:</p>
-          <p className="text-[18px] font-bold">${cartCard.price}</p>
+          <p className="text-[18px] font-bold">${totalPrice}</p>
         </div>
-        <button className="btn btn-primary btn-block bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-full text-white">
+        <button onClick={handleCheckout} className="btn btn-primary btn-block bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-full text-white">
           Proceed To Checkout
         </button>
       </div>
