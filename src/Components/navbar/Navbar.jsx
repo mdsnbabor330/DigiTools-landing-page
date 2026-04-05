@@ -77,7 +77,7 @@ const Navbar = ({cartCard}) => {
               <ShoppingCart />
             </div>
 
-            <p className="text-[#101727] font-semibold">Login</p>
+            <p className="text-[#101727] font-semibold btn btn-ghost rounded-full">Login</p>
           </div>
           <a className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-full text-white">
             Get Started

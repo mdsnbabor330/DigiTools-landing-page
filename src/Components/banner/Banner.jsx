@@ -7,7 +7,7 @@ const Banner = () => {
   return (
     <>
       <div
-        className="max-mA flex flex-col md:flex-row items-center justify-center 
+        className="max-mA flex flex-col lg:flex-row items-center justify-center 
         md:justify-between py-10 md:py-20 px-2 gap-4"
       >
         <div className="flex flex-col gap-5 max-w-160 items-center md:items-start text-center md:text-left">

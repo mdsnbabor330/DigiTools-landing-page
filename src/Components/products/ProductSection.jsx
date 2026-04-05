@@ -8,7 +8,7 @@ const ProductSection = ({ productPromise, cartCard, setCartCard }) => {
   return (
     <div className="py-25">
       <div className="py-10 mx-auto text-center flex flex-col items-center justify-center gap-4 max-w-135">
-        <h2 className="font-extrabold text-[48px]">Premium Digital Tools</h2>
+        <h2 className="font-extrabold text-[32px] md:text-[48px]">Premium Digital Tools</h2>
         <p className="text-gray-600">
           Choose from our curated collection of premium digital products
           designed to boost your productivity and creativity.

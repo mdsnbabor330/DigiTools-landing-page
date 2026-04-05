@@ -14,7 +14,9 @@ const Card = ({ product, cartCard, setCartCard }) => {
       <div className="card w-full h-full bg-base-100 shadow-sm border border-base-300 hover:scale-105 hover:shadow-xl transition-all decoration-1">
         <div className="card-body">
           <div className="flex justify-between">
-            <div></div>
+            <div className="p-2 shadow border-dotted border-2 border-base-300 rounded-full">
+              <img src={product.icon} alt="" className="h-10" />
+            </div>
             <span
               className={`badge badge-soft ${
                 product.tagType == "popular"
@@ -36,9 +38,9 @@ const Card = ({ product, cartCard, setCartCard }) => {
             </span>
           </span>
           <ul className="mt-6 flex flex-col gap-2 text-xs">
-            {product.features.map((feature) => {
+            {product.features.map((feature,ind) => {
               return (
-                <li>
+                <li key={ind}>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="size-4 me-2 inline-block text-success"

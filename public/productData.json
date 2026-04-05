@@ -8,7 +8,7 @@
     "tag": "Popular",
     "tagType": "popular",
     "features": ["Unlimited generations", "SEO optimization", "20+ languages", "Export to DOCX"],
-    "icon": "PenTool"
+    "icon": "https://i.ibb.co.com/qMSG31Rs/icons8-writer-96.png"
     
   },
   {
@@ -20,7 +20,7 @@
     "tag": "New",
     "tagType": "new",
     "features": ["Personal boards", "Team collaboration", "Deadline reminders", "Mobile app"],
-    "icon": "CheckSquare"
+    "icon": "https://i.ibb.co.com/nNbjpZnb/icons8-task-64.png"
     
   },
   {
@@ -32,7 +32,7 @@
     "tag": "Best Seller",
     "tagType": "best-seller",
     "features": ["2TB Storage", "End-to-end encryption", "File versioning", "Priority support"],
-    "icon": "Cloud"
+    "icon": "https://i.ibb.co.com/8nFw88qH/icons8-cloud-100.png"
     
   },
   {
@@ -44,7 +44,7 @@
     "tag": "Popular",
     "tagType": "popular",
     "features": ["SVG exports", "Brand guidelines", "Commercial license", "Free updates"],
-    "icon": "Zap"
+    "icon": "https://i.ibb.co.com/fYNfdwLf/icons8-brand-96.png"
     
   },
   {
@@ -56,7 +56,7 @@
     "tag": "New",
     "tagType": "new",
     "features": ["Unlimited subscribers", "A/B testing", "Heatmaps", "Custom templates"],
-    "icon": "Mail"
+    "icon": "https://i.ibb.co.com/wvBWDg6/icons8-email-100.png"
     
   },
   {
@@ -68,7 +68,7 @@
     "tag": "Popular",
     "tagType": "popular",
     "features": ["Connect 10 accounts", "Visual calendar", "Engagement analytics", "Bulk upload"],
-    "icon": "Share2"
+    "icon": "https://i.ibb.co.com/wF5Kh71P/icons8-social-96.png"
     
   },
   {
@@ -80,7 +80,7 @@
     "tag": "New",
     "tagType": "new",
     "features": ["4K Exports", "Stock library", "No watermark", "Team seats"],
-    "icon": "Video"
+    "icon": "https://i.ibb.co.com/tpXYdTFv/icons8-video-100.png"
     
   },
   {
@@ -92,7 +92,7 @@
     "tag": "Best Seller",
     "tagType": "best-seller",
     "features": ["Unlimited devices", "Dark web monitoring", "Safe sharing", "Secure notes"],
-    "icon": "ShieldCheck"
+    "icon": "https://i.ibb.co.com/8n4TBm2B/icons8-password-64.png"
     
   },
   {
@@ -104,7 +104,7 @@
     "tag": "Popular",
     "tagType": "popular",
     "features": ["Keyword tracking", "Competitor analysis", "Backlink monitor", "Weekly reports"],
-    "icon": "BarChart2"
+    "icon": "https://i.ibb.co.com/m5BRNMRt/icons8-seo-100.png"
     
   },
   {
@@ -116,7 +116,7 @@
     "tag": "Best Seller",
     "tagType": "best-seller",
     "features": ["Unlimited chats", "AI auto-replies", "CRM integration", "Chat analytics"],
-    "icon": "MessageCircle"
+    "icon": "https://i.ibb.co.com/vxGXGByj/icons8-chat-64.png"
     
   }
 ]
