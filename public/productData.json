@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "AI Content Writer Pro",
+    "description": "Generate high-quality blog posts and social media content in seconds with our advanced AI.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["Unlimited generations", "SEO optimization", "20+ languages", "Export to DOCX"],
+    "icon": "PenTool"
+    
+  },
+  {
+    "id": 2,
+    "name": "Smart Task Manager",
+    "description": "Stay organized and productive with our intuitive task management system. Perfect for teams.",
+    "price": 12,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["Personal boards", "Team collaboration", "Deadline reminders", "Mobile app"],
+    "icon": "CheckSquare"
+    
+  },
+  {
+    "id": 3,
+    "name": "Cloud Storage Ultra",
+    "description": "Securely store and share your files with military-grade encryption and 2TB of fast storage.",
+    "price": 99,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": ["2TB Storage", "End-to-end encryption", "File versioning", "Priority support"],
+    "icon": "Cloud"
+    
+  },
+  {
+    "id": 4,
+    "name": "Logo & Brand Kit",
+    "description": "Create professional logos and brand identities in minutes. No design skills required.",
+    "price": 45,
+    "period": "one-time",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["SVG exports", "Brand guidelines", "Commercial license", "Free updates"],
+    "icon": "Zap"
+    
+  },
+  {
+    "id": 5,
+    "name": "Email Automation Tool",
+    "description": "Build high-converting email sequences and manage your subscribers with ease.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["Unlimited subscribers", "A/B testing", "Heatmaps", "Custom templates"],
+    "icon": "Mail"
+    
+  },
+  {
+    "id": 6,
+    "name": "Social Media Scheduler",
+    "description": "Schedule your posts across all platforms and analyze your performance in one place.",
+    "price": 25,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["Connect 10 accounts", "Visual calendar", "Engagement analytics", "Bulk upload"],
+    "icon": "Share2"
+    
+  },
+  {
+    "id": 7,
+    "name": "Video Editor Stream",
+    "description": "Fast and easy browser-based video editing for content creators and businesses.",
+    "price": 299,
+    "period": "yearly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["4K Exports", "Stock library", "No watermark", "Team seats"],
+    "icon": "Video"
+    
+  },
+  {
+    "id": 8,
+    "name": "Password Safe Master",
+    "description": "The ultimate solution for managing your passwords and protecting your digital identity.",
+    "price": 39,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": ["Unlimited devices", "Dark web monitoring", "Safe sharing", "Secure notes"],
+    "icon": "ShieldCheck"
+    
+  },
+  {
+    "id": 9,
+    "name": "SEO Analytics Dashboard",
+    "description": "Track your website rankings, backlinks, and keyword performance with real-time insights.",
+    "price": 49,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["Keyword tracking", "Competitor analysis", "Backlink monitor", "Weekly reports"],
+    "icon": "BarChart2"
+    
+  },
+  {
+    "id": 10,
+    "name": "Live Chat & Support Suite",
+    "description": "Engage your website visitors in real time and turn conversations into conversions.",
+    "price": 199,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": ["Unlimited chats", "AI auto-replies", "CRM integration", "Chat analytics"],
+    "icon": "MessageCircle"
+    
+  }
+]
