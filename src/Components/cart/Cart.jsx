@@ -11,6 +11,7 @@ const Cart = ({ cartCard, setCartCard }) => {
     }
     const totalPrice= cartCard.reduce((sum,cart)=> sum+cart.price,0)
     const handleCheckout=()=>{
+      toast.success("Successfully proceeded to checkout!")
         setCartCard([]);
     }
 
