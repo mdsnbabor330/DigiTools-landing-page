@@ -37,8 +37,20 @@ const Banner = () => {
             </button>
           </div>
         </div>
-        <div className="">
-          <img src={bannerImg} alt="" />
+        <div className="hover-3d">
+          {/* content */}
+          <figure className=" rounded-2xl">
+            <img src={bannerImg} alt="" />
+          </figure>
+          {/* 8 empty divs needed for the 3D effect */}
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
         </div>
       </div>
       <BannerBottom></BannerBottom>

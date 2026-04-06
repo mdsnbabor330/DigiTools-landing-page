@@ -7,6 +7,8 @@ import { Loader } from "lucide-react";
 import ProductSection from "./Components/products/ProductSection";
 import Steps from "./Components/steps/Steps";
 import Pricing from "./Components/pricing/Pricing";
+import Workflow from "./Components/workflow/Workflow";
+import Footer from "./Components/footer/Footer";
 
 const fetchProductData = async () => {
   const res = await fetch("/productData.json");
@@ -45,6 +47,8 @@ function App() {
       <Suspense fallback={"Loading..."}>
         <Pricing pricingPromise={pricingPromise}></Pricing>
       </Suspense>
+      <Workflow></Workflow>
+      <Footer></Footer>
     </>
   );
 }
