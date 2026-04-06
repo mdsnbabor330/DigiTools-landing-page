@@ -11,6 +11,7 @@
       "1 project per month"
     ],
     "highlight": false,
+    "period": "Month",
     "button": "Get Started Free"
   },
   {
@@ -27,6 +28,7 @@
       "Advanced analytics"
     ],
     "highlight": true,
+    "period": "Month",
     "button": "Start Pro Trial"
   },
   {
@@ -43,6 +45,7 @@
       "Custom branding"
     ],
     "highlight": false,
+    "period": "Month",
     "button": "Contact Sales"
   }
 ]

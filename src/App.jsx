@@ -6,6 +6,7 @@ import Products from "./Components/products/Products";
 import { Loader } from "lucide-react";
 import ProductSection from "./Components/products/ProductSection";
 import Steps from "./Components/steps/Steps";
+import Pricing from "./Components/pricing/Pricing";
 
 const fetchProductData = async () => {
   const res = await fetch("/productData.json");
@@ -15,18 +16,23 @@ const fetchStepsData = async () => {
   const res = await fetch("/stepsData.json");
   return res.json();
 };
+const fetchPricingData = async ()=>{
+  const res = await fetch('/pricingData.json');
+  return res.json();
+}
 
 
 function App() {
   const productPromise = fetchProductData();
   const stepsPromise = fetchStepsData();
+  const pricingPromise = fetchPricingData()
   const [cartCard, setCartCard] = useState([]);
 
   return (
     <>
       <Navbar cartCard={cartCard}></Navbar>
       <Banner></Banner>
-      <Suspense fallback={"loading.."}>
+      <Suspense fallback={"loading..."}>
         <ProductSection
           productPromise={productPromise}
           cartCard={cartCard}
@@ -35,6 +41,9 @@ function App() {
       </Suspense>
       <Suspense fallback={"loading..."}>
         <Steps stepsPromise={stepsPromise}></Steps>
+      </Suspense>
+      <Suspense fallback={"Loading..."}>
+        <Pricing pricingPromise={pricingPromise}></Pricing>
       </Suspense>
     </>
   );
