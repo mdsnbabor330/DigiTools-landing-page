@@ -2,6 +2,9 @@
 
 **DigiTools** is a high-performance, aesthetically pleasing digital products landing page. Designed for modern digital tool marketplaces, it offers a seamless shopping experience with a focus on speed, responsiveness, and user engagement.
 
+## 🚀 Live Demo
+[View Live Project](https://project-digitools.netlify.app/)
+
 ## Features
 
 ### 1. Dynamic Shopping Experience
